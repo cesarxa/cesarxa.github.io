@@ -1,40 +1,91 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <meta charset="utf-8">
         <title>Cesar's Resume</title>
+        <meta charset="utf-8">
+
         <style>
-                        
-            #official-projects 
-            {background: rgb(235, 235, 235);}
-            #p1 { float: right; margin: -30px 0 0 0; }
-            #p2 { float: left; margin: -30px 0 0 0; }
+            #main-background
+            {
+                background-color : black;
+            }
 
+            #top-heading
+            {
+                background: rgb(230, 230, 230);
+                /* margin: auto;
+                border: 1px solid rgb(145, 0, 0);
+                border-top: 10px solid purple; 
+                padding: 6px*/
 
+            }
+            #logo-image 
+            {
+                
+                width: 500px;
+                float : left;
+                margin-inline-start: 0px;
+                margin-right: 10px;
+               
+                
+            }
+
+            .important
+            {
+                color: red;
+            }
+
+            #project1
+            {
+                background: rgb(230, 230, 230);
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                
+                
+            }
+
+            #poject-image 
+            {
+                
+                width: 500px;
+                float : left;
+                margin-inline-start: 0px;
+                margin-right: 10px;
+               
+                
+            }
+
+            #last-projects
+            {
+                background: rgb(230, 230, 230);
+                padding: 25px;
+                clear: both;
+                
+            }
 
         </style>
     </head>
+    <body id="main-background">
+        <header >
+           <div>
+                <h1>
+                    <a><img id="logo-image "src="images/CesarLogo1.1.png"></a>
+            </div>
+            
 
+        </header>
 
-  
-<html>
-    <head>
-        <title>CSS grouping elements</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h1><center>I'm Cesar Andres Hernandez</center></h1>
+        <div id="top-heading">
+        <h1><center>I'm Cesar <span class= "important">Andres</span> Hernandez</center></h1>
         <p><center>I'm hosted with GitHub Pages.</center></p>
+        </div>
     
-        <h3>Why I Love Cats</h3>
-        <ul>
-            <li>Furry
-            <li>Cute
-            <li>Evil
-        </ul>
         
-        <h3>Official Info on Cats</h3>
-        <p><img src="images/campingtest.jpg" width="500"> The cat (Felis catus), also known as the domestic cat or housecat
+        <div id="project1">
+        <h2><center>Projects</center></h2>
+        <p><img id="poject-image" src="images/campingtest.jpg" > The cat (Felis catus), also known as the domestic cat or housecat
              to distinguish it from other felines and felids, is a small domesticated carnivorous mammal that is valued by 
              humans for its companionship and ability to hunt vermin and household pests. Cats have been associated with humans 
              for at least 9,500 years, and are currently the most popular pet in the world. Owing to their close association with
@@ -51,74 +102,23 @@
             a hobby known as cat fancy. Failure to control the breeding of pet cats by spaying and neutering and the abandonment of 
             former household pets has resulted in problems caused by large numbers of feral cats worldwide, with a population of up
              to 60 million of these animals in the United States alone.</p>
-            
-        Read more on <a href="http://en.wikipedia.org/wiki/Cat">Wikipedia</a>.
+        </div>
+
+        <div id="last-projects">
+        <h2>Other Projects</h2>
+        <ul>
+            <li>Furry
+            <li>Cute
+            <li>Evil
+        </ul>
+        </div>
+
     
         <footer>
             <p>Copyright 2009 Your name</p>
         </footer>
-        
+
     </body>
-    </html>
-
-
-
-
-
-
-
-<!-- <body>
-    <h1><center>I'm Cesar Andres Hernandez</center></h1>
-    <p><center>I'm hosted with GitHub Pages.</center></p>
-
-    <img src="images/campingtest.jpg" width="500" id="p1">
-
-    <div id="official-projects">
-        <img src="images/campingtest.jpg" width="500" id="p1">
-        </p>
-        <h2>Magna etiam feugiat</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis 
-        laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et,
-        hendrerit vestibulum odio lorem ipsum dolor sit amet.
-        </p>
-    </div>
-
-    <img src="images/campingtest.jpg" width="500" id="p2">
-
-    <div id="official-projects">
-        <img src="images/campingtest.jpg" width="500" id="p2">
-        </p>
-        <h2>Magna etiam feugiat</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis 
-        laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et,
-        hendrerit vestibulum odio lorem ipsum dolor sit amet.
-        </p>
-    </div>
-
-    <div id="official-projects">
-        <img src="images/campingtest.jpg" width="500" id="p2">
-        </p>
-        <h2>Magna etiam feugiat</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis 
-        laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et,
-        hendrerit vestibulum odio lorem ipsum dolor sit amet.
-        </p>
-    </div>
-
-</body>
-
-
-<body>
-
-
-	<footer>
-		<p>Copyright 2009 Your name</p>
-	</footer>
-
-</body>
 
 </html>
- -->
+
