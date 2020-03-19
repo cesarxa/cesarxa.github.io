@@ -89,7 +89,7 @@
   
 .menu-wrap .toggler:checked ~ .menu > div > div{
     opacity: 1;
-    transition:  opacity 0.4s ease 0.4s;
+    transition:  opacity 0.5s ease 0.5s;
 }
   
 .menu-wrap .menu{
@@ -115,7 +115,7 @@
     align-items: center;
     justify-content: center;
     transform: scale(0);
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
 }
   
 .menu-wrap .menu > div > div{
@@ -123,7 +123,7 @@
     max-width: 90vw;
     max-height: 100vh;
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: opacity 0.5s ease;
 }
   
 .menu-wrap .menu > div > div > ul > li{
@@ -136,7 +136,7 @@
 .menu-wrap .menu > div > div > ul > li > a{
     color: inherit;
     text-decoration: none;
-    transition: color 0.4s ease;
+    transition: color 0.5s ease;
 }
   
   
