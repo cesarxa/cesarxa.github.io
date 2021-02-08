@@ -16,7 +16,7 @@ body{
 .about-section{
     background: url('../images/pic2.jpg') no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfd;
+    background-color: rgb(253, 223, 80);
     overflow: hidden;
     padding: 100px 0;
 }
