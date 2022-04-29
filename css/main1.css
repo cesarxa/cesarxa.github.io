@@ -488,7 +488,7 @@ a.notify-me {
 }
 
 .innerheader {
-    background: url(../images/slider2.jpg);
+    background: url('../images/slider2.jpg');
     background-size: cover;
     background-repeat: repeat;
     background-position: center center;
